@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AL Airways Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="app">
+  <header>
+    <h1>✈️ Welcome to AL Airways</h1>
+    <p>Your Smart Airline Assistant</p>
+  </header>
+
+  <div class="chat-container">
+    <div class="chat-box" id="chatBox">
+      <div class="bot-msg">
+        <img src="https://i.pinimg.com/736x/15/34/92/153492d5cc36e23919920d27ab4b08cc.jpg" />
+        <span>👋 Hello from AL Airways! This is <b>AL Bot</b>. How may I assist you today?</span>
+      </div>
+    </div>
+
+    <div class="typing" id="typing">AL Bot is typing<span>...</span></div>
+
+    <div class="input-box">
+      <input id="userInput" placeholder="Type your message here..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

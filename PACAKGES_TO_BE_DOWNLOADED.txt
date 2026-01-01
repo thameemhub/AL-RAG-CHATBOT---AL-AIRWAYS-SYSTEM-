@@ -1,0 +1,35 @@
+Flask
+
+👉 Used to create the backend server and connect frontend with chatbot.
+
+Flask-CORS
+
+👉 Allows frontend (browser) to talk to backend safely.
+
+PyPDF2
+
+👉 Reads text from PDF files (airline documents).
+
+scikit-learn
+
+👉 Converts text into vectors and finds relevant information.
+
+Transformers (Hugging Face)
+
+👉 Generates human-like answers from retrieved text.
+
+Torch (PyTorch)
+
+👉 Runs the AI model in the backend.
+
+NumPy
+
+👉 Handles numbers and vector calculations.
+
+Pickle
+
+👉 Saves processed data so the system loads faster next time.
+
+OS
+
+👉 Reads files and folders from the system.

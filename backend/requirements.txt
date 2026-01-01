@@ -1,0 +1,7 @@
+torch
+transformers
+sentencepiece
+python-dotenv
+pypdf
+numpy
+scikit-learn
